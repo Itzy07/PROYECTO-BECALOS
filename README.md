@@ -1,9 +1,8 @@
 # Proposito 
 es un proyecto que refleja mis capacidades aprendidas del modulo 1
+- Se aplicó principios basicos de HTML
+- Se utilizó etiquetas semanticas 
 
-## Intrucciones para ejecutar 
-pendiente 
 
-## Autor y licencia 
-
+## Autor 
 Creado por Itzel Gomez
