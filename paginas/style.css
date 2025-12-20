@@ -39,6 +39,8 @@ body {
     font-weight: bold;
     text-decoration: underline;
     font-size: 20px;
+    
+    
 }
 #fuente {
     font-family: 'Courier New', Courier, monospace;
@@ -49,11 +51,15 @@ body {
 .inline {
     display: block;
     color: blueviolet;
+    
 }
 .box {
     border: 2px solid black;
     background-color: rgb(199, 199, 199);
     padding: 30 px;
-    margin: 10 px 8 px 6px 4px;
+    margin: 10 px 8 px 10px 8px;
     box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
