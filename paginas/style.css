@@ -139,3 +139,8 @@ body {
   background-color: #45a049; /* Efecto al pasar el ratón sobre el botón */
 
 }
+@media (min-width: 300px) and (max-width: 600px) {
+   .body{
+    background-color: rgb(28, 27, 28);
+   }
+}
