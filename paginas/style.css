@@ -1,6 +1,31 @@
 body {
     background-color:rgb(246, 222, 226) ;
 }
+.navbar {
+
+   background-color: #ebe6e6; /* Un fondo casi blanco */
+   overflow: hidden; /* Para asegurarnos de que no haya desbordamientos */
+   display: flex; /* Alinea los elementos en una fila */
+   justify-content: space-around; /* Espacia uniformemente los elementos */
+   padding: 1em;
+
+}
+
+.navbar a {
+
+   color: rgb(28, 27, 27); /* Enlaces en negro para que resalten */
+   text-decoration: none; /* Quitar el subrayado */
+   padding: 0.5em 1em; /* Espacio alrededor de los enlaces */
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+
+}
+
+.navbar a:hover {
+
+   background-color: #575757; /* Efecto hover para resaltar los enlaces */
+   transition: 0.3s; /* Suavizar la transición del hover */
+
+}
 .fixed-menu {
     position: fixed;
     top: 0;
@@ -11,6 +36,7 @@ body {
     padding: 10px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    z-index: 1000; /* Alto valor de z-index para estar siempre por encima */
 }
 .titulo {
     color: rgb(37, 40, 238);
@@ -62,4 +88,54 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+}
+
+.container {
+
+   display: flex;
+   flex-direction: row;
+   justify-content:center; /* Centrar horizontalmente */
+   align-items: center; /* Centrar verticalmente */
+   height: 70vh; /* Hacer que ocupe toda la altura de la pantalla */
+
+}
+.card {
+
+   background-color: white;
+   padding: 20px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   border-radius: 8px;
+   justify-content:center;
+   
+
+}
+.cookie-footer {
+
+   position: fixed; /* Siempre visible al final de la pantalla */
+   bottom: 0; /* Pegado a la parte inferior */
+   left: 0;
+   right: 0;
+   background-color: #222; /* Fondo oscuro para que destaque */
+   color: #fff; /* Texto en blanco para buen contraste */
+   display: flex; /* Organiza el contenido de manera horizontal */
+   justify-content: space-between; /* Espacia el texto y el botón */
+   align-items: center;
+
+}
+
+.cookie-footer button {
+
+   background-color: #4caf50; /* Verde para el botón */
+   color: white;
+   border: none;
+   padding: 0.5em 1em;
+   cursor: pointer;
+
+}
+
+.cookie-footer button:hover {
+
+  background-color: #45a049; /* Efecto al pasar el ratón sobre el botón */
+
 }
